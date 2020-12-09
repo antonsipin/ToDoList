@@ -10,11 +10,11 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk.
  
   </b>
   <p align="center">
-  <img src="frontend/public/ToDo_1.gif" width="600" title="Добавление задачи">
-  <img src="frontend/public/ToDo_2.gif" width="600" title="Редактирование задачи">
-  <img src="frontend/public/ToDo_3.gif" width="600" title="Редактирование задачи">
-  <img src="frontend/public/ToDo_4.gif" width="600" title="Запрос задач из базы данных">
-  <img src="frontend/public/ToDo_5.gif" width="600" title="Удаление задачи">
+  <img src="frontend/public/ToDo_1.gif" width="700" title="Добавление задачи">
+  <img src="frontend/public/ToDo_2.gif" width="700" title="Редактирование задачи">
+  <img src="frontend/public/ToDo_3.gif" width="700" title="Редактирование задачи">
+  <img src="frontend/public/ToDo_4.gif" width="700" title="Запрос задач из базы данных">
+  <img src="frontend/public/ToDo_5.gif" width="700" title="Удаление задачи">
   </p>
 
 <b>
