@@ -1,0 +1,79 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.main-text {
+  margin: 170px 0 0 250px;
+}
+.main-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #424242;
+}
+.main-sub {
+  /* width: 500px; */
+  color: #616161;
+}
+#gr-word {
+  color: #66bb6a;
+}
+
+#titlename {
+  color: #ff8f00;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px brown, 2px 2px 1px brown;
+}
+#image-index {
+  float: right;
+  margin: 0px 220px 5px 5px;
+}
+.form-div {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.form-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-in-form {
+  padding: 8px 10px !important;
+}
+.btn-pos {
+  margin-top: 20px;
+}
+#email:focus {
+  border-bottom: 1px solid #a5d6a7;
+  box-shadow: 0 1px 0 0 #a5d6a7;
+}
+
+#password:focus {
+  border-bottom: 1px solid #a5d6a7;
+  box-shadow: 0 1px 0 0#a5d6a7;
+}
+#name-p:focus {
+  border-bottom: 1px solid #a5d6a7;
+  box-shadow: 0 1px 0 0 #a5d6a7;
+}
+#email-p:focus {
+  border-bottom: 1px solid #a5d6a7;
+  box-shadow: 0 1px 0 0 #a5d6a7;
+}
+
+#password-p:focus {
+  border-bottom: 1px solid #a5d6a7;
+  box-shadow: 0 1px 0 0#a5d6a7;
+}
+.footer-text {
+  display: flex;
+  justify-content: center;
+  color: #616161;
+  margin-top: 60px;
+}
