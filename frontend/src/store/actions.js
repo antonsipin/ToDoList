@@ -23,7 +23,7 @@ export const thunkAddTask = (currentTask) => async (dispatch) => {
   
   try {
 
-    const response = await fetch(`http://localhost:3100/task`, {
+    const response = await fetch(`/task`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -34,7 +34,6 @@ export const thunkAddTask = (currentTask) => async (dispatch) => {
     let task = await response.json();
     dispatch(loadAC(task));
      } catch (err) {
-    console.log('Error message:', { id: getTasksfromDbErrorId, message: '400 Bad Request ', status: false, isLoaded: true });
     dispatch(errorAC({ id: getTasksfromDbErrorId, message: '400 Bad Request ', status: false, isLoaded: true }))
   }
 }
@@ -44,14 +43,12 @@ export const thunkGetTasksfromDb = () => async (dispatch) => {
 
   try {
 
-    const response = await fetch('http://localhost:3100/task', {
+    const response = await fetch('/task', {
       method: 'GET',
     });
-  
     const task = await response.json();
     dispatch(delTestAC(task));
   } catch (err) {
-    console.log('Error message:', { id: getTasksfromDbErrorId, message: '400 Bad Request ', status: false, isLoaded: true });
     dispatch(errorAC({ id: getTasksfromDbErrorId, message: '400 Bad Request ', status: false, isLoaded: true }))
   }
 }
@@ -61,7 +58,7 @@ export const thunkChangeStatus = (currentTask) => async (dispatch) => {
   
   try {
 
-    const response = await fetch(`http://localhost:3100/task/changeStatus`, {
+    const response = await fetch(`/task/changeStatus`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -81,7 +78,7 @@ export const thunkDeleteTask = (currentTask) => async (dispatch) => {
 
   try {
 
-    const response = await fetch(`http://localhost:3100/task/delete`, {
+    const response = await fetch(`/task/delete`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -90,7 +87,6 @@ export const thunkDeleteTask = (currentTask) => async (dispatch) => {
     });
      
     const task = await response.json();
-    console.log('thunkDeleteTask>>>>>>>>', task);
     dispatch(delTodoAC(task));
 
   } catch (err) {

@@ -1,8 +1,8 @@
 {
-  "name": "self-assessment-rest",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Пожалуйста, постарайтесь справиться с этим заданием за 3 часа.",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon --ignore .'sessions/' app.js",
     "start": "node app.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antonsipin/self-assessment-rest.git"
+    "url": "git+https://github.com/antonsipin/ToDoList.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/antonsipin/self-assessment-rest/issues"
+    "url": "https://github.com/antonsipin/ToDoList/issues"
   },
-  "homepage": "https://github.com/antonsipin/self-assessment-rest#readme",
+  "homepage": "https://github.com/antonsipin/ToDoList#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "cross-env": "^7.0.2",

@@ -8,43 +8,17 @@ import FormControl from 'react-bootstrap/FormControl'
 import { editTodoAC } from "../store/actions";
 import { useDispatch } from "react-redux";
 import { thunkDeleteTask } from "../store/actions";
-import { delTodoAC } from "../store/actions";
-import { doneTodoAC } from "../store/actions";
 import { thunkChangeStatus } from "../store/actions";
 import { errorAC } from "../store/actions";
 import styled, { keyframes } from 'styled-components';
-import { bounce} from 'react-animations';
-import { flash} from 'react-animations';
 import { headShake} from 'react-animations';
-import { hinge} from 'react-animations';
 import { pulse} from 'react-animations';
-import { zoomIn } from 'react-animations';
 import Image from 'react-random-image'
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Loader from 'react-loader-spinner'
 import { nanoid } from 'nanoid'
-
 const Hinge = styled.div`animation: 2s ${keyframes`${headShake}`} infinite`;
 const Bounce = styled.div`animation: 2s ${keyframes`${pulse}`} infinite`;
-
-const divStyle = {
-  WebkitTransition: 'all',
-  msTransition: 'all',
-  height: '100px',
-};
-
-const errStyle = {
-  WebkitTransition: 'all',
-  msTransition: 'all',
-  fontSize: '20px',
-  color: 'red'
-};
-
-const taskStyle = {
-  WebkitTransition: 'all',
-  msTransition: 'all',
-  height: '100px',
-};
 
 const TasksList = () => {
   const todos = useSelector((store) => store);
@@ -53,7 +27,9 @@ const TasksList = () => {
   let taskNameDuplicateErrorId = nanoid()
 
   const saveNewTask = async (id, name) => {
+
     try {
+      
     for (let i = 0; i < todos.length; i++) {
       if (todos[i].id === id) {
 
@@ -66,7 +42,7 @@ const TasksList = () => {
         todos[i].message = '';
         dispatch(editTodoAC(todos[i]));
 
-       await fetch(`http://localhost:3100/task/edit`, {
+       await fetch(`task/edit`, {
        method: 'POST',
        headers: {
       'Content-Type': 'application/json'
@@ -88,9 +64,7 @@ const TasksList = () => {
     let currentTask;
     for (let i = 0; i < todos.length; i++) {
       if (todos[i].id === id) {
-        // todos[i].status = !todos[i].status
         currentTask = todos[i]
-        // dispatch(doneTodoAC(todos[i]));
       }
     }
     dispatch(thunkChangeStatus(currentTask));
@@ -101,9 +75,6 @@ const TasksList = () => {
     for (let i = 0; i < todos.length; i++) {
       if (todos[i].id === id) {
       currentTask = todos[i]
-        
-      // todos.splice(i, 1);
-      // dispatch(delTodoAC(todos));
       }
     }
       dispatch(thunkDeleteTask(currentTask));
@@ -120,7 +91,6 @@ const TasksList = () => {
 
   return (
     <Container style={divStyle}>
-      {console.log('todos!!!!!!!!', todos)}
       <h3>{todos.length !== 0 && todos.map((el) => {
         
         return el.message === '' ? 
@@ -192,3 +162,22 @@ const TasksList = () => {
 }
 
 export default TasksList
+
+const divStyle = {
+  WebkitTransition: 'all',
+  msTransition: 'all',
+  height: '100px',
+};
+
+const errStyle = {
+  WebkitTransition: 'all',
+  msTransition: 'all',
+  fontSize: '20px',
+  color: 'red'
+};
+
+const taskStyle = {
+  WebkitTransition: 'all',
+  msTransition: 'all',
+  height: '100px',
+};
