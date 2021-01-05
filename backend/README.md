@@ -1,69 +1,58 @@
-## Self-Assessment-Rest
+# ToDo List
 
-Пожалуйста, постарайтесь справиться с этим заданием за 3 часа. 
-
-Если Вы не закончите выполнение этой задачи в течение трех часов, не забудьте сделать коммит по истечении трех часов, и после можно продолжить работу.
-
-Удачи!
-
-# Приложение для подписки на канал
-
-К настоящему времени Вы должны быть знакомы с созданием базовых веб-приложений с использованием фреймфорка Express. В настоящем задании Вы будете создавать приложение для подписки на канал для кабельных компаний. Это даст Вам возможность продемонстрировать свои знания путем написания кода для model, view и контроллеров, базовые знания HTML и некоторое понимание CSS.
-
-Задание разбито на несколько частей. Вы должны завершить выполнение одной части, прежде чем переходить к следующей. Мы обозначили приблизительные временные рамки для каждой части, чтобы помочь Вам.
-
-### Release 1: Механизм аутентификации (Регламентирование по времени ~ 60 минут)
-
-Сделать аутентификацию на основе сессий. Сессии можно хранить в памяти, в Redis, в файловой системе или любом другом store на ваше усмотрение.
-Пароль для пользователя можно хранить в открытом виде, можно в виде хеша [bcrypt](https://github.com/kelektiv/node.bcrypt.js)  , можно использовать готовую библиотеку, например, [PassportJS](http://www.passportjs.org/) 
-
-#### Модель пользователя
-
-Создайте модель `User`. Добавьте проверки в модель `User`, которые гарантируют следующее:
-
-- Каждый пользователь имеет адрес электронной почты
-- Электронная почта каждого пользователя является уникальной
-- Каждый пользователь имеет пароль
-
-#### AJAX-регистрация нового пользователя, авторизация, выход из системы
-
-Создайте маршруты (`routes`) и представления (`views`), чтобы позволить пользователю:
-
-1. Зарегистрироваться в качестве нового пользователя
-2. Войти в систему в качестве существующего пользователя
-3. Выйти из системы за существующего пользователя
-
-Схема такая:
-* Вешаем обработчик события `submit` на форму;
-* Отправляем `fetch` на ручку аутентификации (не забудьте про [`credentials: 'include'`](https://developer.mozilla.org/en-US/docs/Web/API/Request/credentials));
-* Если ответ от ручки `200`, то делаем `location.assign('/моя-ручка')`;
-* Если ответ от ручки `401`, то выводим ошибку.
-
-Не усложняйте аутентификацию, client handlebars использовать не нужно.
-
-### Release 2: Каналы (Регламентирование по времени ~ 30 минут)
-
-Пользователи могут добавлять и удалять каналы из своей учетной записи пользователя. Пользователи могут подписываться на многие каналы, и канал может иметь много подписчиков. 
-
-Не забудьте написать скрипт, который наполнит вашу БД каналами (`seeds.js`).
-
-
-### Release 3: CRUD It Up (Регламентирование по времени ~ 90 минут)
-
-После аутентификации пользователя создайте некоторые страницы CRUD.
-
-1. Без входа в систему пользователь может видеть список всех каналов
-2. После входа в систему пользователь может видеть страницу профиля пользователя, включая:
-   * список каналов пользователя
-   * общую стоимость в месяц всех каналов пользователя
-   * После входа в систему Пользователь должен увидеть свою страницу.
-3. Страница для отображения информации об одном канале, включая:
-   * название канала, цену
-   * общее количество абонентов
-   * кнопку для подписки на канал, если пользователь зарегистрирован, но еще не подписан
-   * кнопку для отмены подписки на канал, если пользователь вошел в систему и уже подписался
-
-Через три часа создайте pull request и отметьте своих преподавателей. Смело продолжайте работу над этой задачей, но обязательно отметьте, на каком этапе Вы находитесь по истечении трех часов.
-
-
-
+<h3> This is animated interactive application for adding, editing and storing a to-do list.
+</h3> 
+  
+ <h3>
+Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, React Bootstrap, React-animations, REST API.
+ </h3>
+ 
+ <h3> 
+  How to start the app locally:
+  </h3> 
+  
+  <p>
+  <ul>
+    <li>
+      Clone this repo <b><i> git clone git@github.com:antonsipin/ToDoList.git</i></b>
+    </li>
+     <li>
+       Go to the backend folder <b><i> cd backend </i></b>
+    </li>
+    <li>
+      Install the dependencies <b><i> npm install </i></b>
+    </li>
+    <li>
+      Place the <b>.env</b> file in the root directory (you can get it from me or take a look at <b>.envexample</b> file)
+    </li>
+    <li>
+      Run the app server <b><i> npm start </i></b> (The server starts at http://localhost:3100)
+    </li>
+    <li>
+      Go to the frontend folder <b><i> cd frontend </i></b>
+    </li>
+    <li>
+      Install the dependencies <b><i> npm install </i></b>
+    </li>
+    <li>
+      Run the app <b><i> npm start </i></b> (The app starts at http://localhost:3000 in browser and you will be able to test the app)
+    </li>
+  </ul>
+  </p> 
+ 
+  <h3 align="center">
+  <p>Adding a task in the database:</p><br />
+  <img src="frontend/public/ToDo_1.gif" width="800" title="Adding a task in the database"><br />
+  
+  <p>Editing a task in the database:</p><br />
+  <img src="frontend/public/ToDo_2.gif" width="800" title="Editing a task in the database"><br />
+  
+  <p>Editing a task in the database:</p><br />
+  <img src="frontend/public/ToDo_3.gif" width="800" title="Editing a task in the database"><br />
+  
+  <p>Query and display tasks from the database:</p><br />
+  <img src="frontend/public/ToDo_4.gif" width="800" title="Query and display tasks from the database"><br />
+  
+  <p>Removing a task from the database:</p><br />
+  <img src="frontend/public/ToDo_5.gif" width="800" title="Removing a task from the database">
+  </h3>

@@ -8,5 +8,4 @@ const composeEnhancers = composeWithDevTools(applyMiddleware(thunkMiddleware)); 
 export const store = createStore(reducers, composeEnhancers,);
 
 window.addEventListener("beforeunload", function (e) {
-    console.log('Saved store toDoApp to DB >>>>', store.getState().todos);
   })

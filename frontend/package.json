@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -26,6 +26,10 @@
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
+  "engines": {
+    "node": "14.x"
+  },
+  "proxy": "http://localhost:3100/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
