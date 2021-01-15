@@ -2,6 +2,7 @@
 
 <h3> This is animated interactive application for adding, editing and storing a to-do list.
 </h3> 
+
   
  <h3>
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, React Bootstrap, React-animations, REST API.
@@ -59,4 +60,5 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
   
   <p>Removing a task from the database:</p><br />
   <img src="frontend/public/ToDo_5.gif" width="800" title="Removing a task from the database">
+  
   </h3>
