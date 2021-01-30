@@ -2,19 +2,15 @@
 
 <h3> This is animated interactive application for adding, editing and storing a to-do list.
 </h3> 
-  
  <h3>
 Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, React Bootstrap, React-animations, REST API.
  </h3>
- 
  <h3>
   The app is available on Heroku: https://interactive-to-do-list.herokuapp.com/
   </h3>
- 
  <h3> 
   How to start the app locally:
   </h3> 
-  
   <p>
   <ul>
     <li>
@@ -43,7 +39,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
     </li>
   </ul>
   </p> 
- 
   <h3 align="center">
   <p>Adding a task in the database:</p><br />
   <img src="frontend/public/ToDo_1.gif" width="800" title="Adding a task in the database"><br />
@@ -59,5 +54,4 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
   
   <p>Removing a task from the database:</p><br />
   <img src="frontend/public/ToDo_5.gif" width="800" title="Removing a task from the database">
-  
   </h3>
