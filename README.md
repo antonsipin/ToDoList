@@ -60,4 +60,5 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
   
   <p>Removing a task from the database:</p><br />
   <img src="frontend/public/ToDo_5.gif" width="800" title="Removing a task from the database">
+  
   </h3>
