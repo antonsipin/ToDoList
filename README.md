@@ -9,6 +9,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
  </h3>
  
  <h3>
+ 
   The app is available on Heroku: https://interactive-to-do-list.herokuapp.com/
   </h3>
   
