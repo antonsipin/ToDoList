@@ -13,7 +13,8 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
   
  <h3> 
   How to start the app locally:
-  </h3> 
+  </h3>
+  
   <p>
   <ul>
     <li>
