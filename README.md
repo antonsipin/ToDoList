@@ -50,6 +50,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
   <p>Adding a task in the database:</p><br />
  
   <img src="frontend/public/ToDo_1.gif" width="800" title="Adding a task in the database"><br />
+ 
   <p>Editing a task in the database:</p><br />
   <img src="frontend/public/ToDo_2.gif" width="800" title="Editing a task in the database"><br />
   <p>Editing a task in the database:</p><br />
