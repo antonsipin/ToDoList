@@ -46,7 +46,6 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
   <img src="frontend/public/ToDo_2.gif" width="800" title="Editing a task in the database"><br />
   <p>Editing a task in the database:</p><br />
   <img src="frontend/public/ToDo_3.gif" width="800" title="Editing a task in the database"><br />
-  
   <p>Query and display tasks from the database:</p><br />
   <img src="frontend/public/ToDo_4.gif" width="800" title="Query and display tasks from the database"><br />
   <p>Removing a task from the database:</p><br />
