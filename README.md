@@ -39,8 +39,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
     </li>
   </ul>
   </p>
-  
-  <h3 align="center">
+    <h3 align="center">
  
   <p>Adding a task in the database:</p><br />
  
