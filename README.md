@@ -16,7 +16,7 @@ Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, 
   How to start the app locally:
   </h3>
   
-   <p>
+  <p>
   <ul>
     <li>
       Clone this repo <b><i> git clone git@github.com:antonsipin/ToDoList.git</i></b>
