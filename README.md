@@ -7,6 +7,7 @@
  <h3>
  
  Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, React Bootstrap, React-animations, REST API.
+ 
   </h3>
   
  <h3>
