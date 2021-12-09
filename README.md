@@ -43,7 +43,6 @@
   </ul>
   </p>
   
-  
   <h3 align="center">
   
   <p>Adding a task in the database:</p><br />
