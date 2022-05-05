@@ -1,6 +1,7 @@
 # ToDo List
 
 <h3> This is animated interactive application for adding, editing and storing a to-do list.
+  
 </h3>
 
   <h3>
