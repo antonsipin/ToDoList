@@ -50,5 +50,4 @@
   <img src="frontend/public/ToDo_4.gif" width="800" title="Query and display tasks from the database"><br />
   <p>Removing a task from the database:</p><br />
   <img src="frontend/public/ToDo_5.gif" width="800" title="Removing a task from the database">
-  
   </h3>
