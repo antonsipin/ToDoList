@@ -14,6 +14,7 @@
   <h3>
    How to start the app locally:
    </h3>
+   
   <p>
   <ul>
     <li>
@@ -42,6 +43,7 @@
     </li>
   </ul>
   </p>
+  
   <h3 align="center">
   <p>Adding a task in the database:</p><br />
   <img src="frontend/public/ToDo_1.gif" width="800" title="Adding a task in the database"><br />
