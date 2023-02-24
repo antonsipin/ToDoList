@@ -15,6 +15,7 @@
   <h3>
    How to start the app locally:
    </h3>
+   
   <p>
   <ul>
     <li>
