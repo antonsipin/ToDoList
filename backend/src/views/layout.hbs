@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,49 +9,45 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.1/handlebars.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script defer src="/js/application.js"></script>
-
   <title></title>
 </head>
-
 <body>
-
   <header>
     <nav class="green lighten-3">
       <div class=" nav-wrapper">
-
         <a class="brand-logo" id="titlename"></a>
-
         <a class="sidenav-trigger" data-target="mobile-nav">
           <i class="material-icons">menu</i>
         </a>
-
         <ul id="nav-mobile" class="right hide-on-med-and-down ul-index">
+
           {{#if userName}}
+
           <li><a href="/">Home</a></li>
           <li><a href="/account">{{userName}}</a></li>
           <li><a href="/users/logout">Log Out</a></li>
+
           {{else}}
+
           <li><a href="/">Home</a></li>
           <li><a href="/users/signin">Log in</a></li>
           <li><a href="/users/signup">Sign up</a></li>
+
           {{/if}}
+
         </ul>
       </div>
     </nav>
-
   </header>
-
   <div class="bg-dk-green pad-t-2 pad-s-1 pad-b-8 mar-b-16 c-white">
-
     <div class="max-w-700 center">
+
       {{{body}}}
+
     </div>
   </div>
 </body>
-
 </html>
