@@ -19,7 +19,6 @@ function FormFunc() {
   const dispatch = useDispatch();
   const [input, setInput] = useState('')
   let taskNameDuplicateErrorId = nanoid()
-  // let getTasksfromDbErrorId = nanoid()
   const todos = useSelector((store) => store);
 
   const onSubmitHandler = (event) => { 

@@ -77,7 +77,6 @@ export const thunkDeleteTask = (currentTask) => async (dispatch) => {
   let getTasksfromDbErrorId = nanoid()
 
   try {
-
     const response = await fetch(`/task/delete`, {
       method: 'POST',
       headers: {

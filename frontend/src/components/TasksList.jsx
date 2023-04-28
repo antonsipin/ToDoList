@@ -29,13 +29,12 @@ const TasksList = () => {
   const saveNewTask = async (id, name) => {
 
     try {
-      
-    for (let i = 0; i < todos.length; i++) {
-      if (todos[i].id === id) {
+      for (let i = 0; i < todos.length; i++) {
 
-        let condition = todos.every(elem => elem.name !== name);
+        if (todos[i].id === id) {
+          let condition = todos.every(elem => elem.name !== name);
 
-        if (condition) {
+          if (condition) {
           
         todos[i].name = name;
         todos[i].edit = false;

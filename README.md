@@ -1,17 +1,13 @@
 # ToDo List
 
 <h3> This is animated interactive application for adding, editing and storing a to-do list.
-  
 </h3>
-
   <h3>
     Techs: HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, React, Redux-Thunk, React Bootstrap, React-animations, REST API.
    </h3>
-   
   <h3>
    How to start the app locally:
    </h3>
-   
   <p>
   <ul>
     <li>

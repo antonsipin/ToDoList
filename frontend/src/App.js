@@ -6,7 +6,6 @@ import FormFunc from './components/Form'
 import TasksList from './components/TasksList'
 
 function App() {
-
   return (
     <Provider store={store}>
       <FormFunc />
