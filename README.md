@@ -39,13 +39,13 @@
   
   <h3 align="center">
   <p>Adding a task in the database:</p><br />
-  <img src="frontend/public/ToDo_1.gif" width="800" title="Adding a task in the database"><br />
+  <img src="https://github.com/antonsipin/ToDoList/assets/46906477/cfe85c90-3d79-46d4-b886-8dc448f0fdb5" width="800" title="Adding a task in the database"><br />
   <p>Editing a task in the database:</p><br />
-  <img src="frontend/public/ToDo_2.gif" width="800" title="Editing a task in the database"><br />
+  <img src="https://github.com/antonsipin/ToDoList/assets/46906477/e71ea2d6-d804-4bab-b439-318f8d81a3d3" width="800" title="Editing a task in the database"><br />
   <p>Editing a task in the database:</p><br />
-  <img src="frontend/public/ToDo_3.gif" width="800" title="Editing a task in the database"><br />
+  <img src="https://github.com/antonsipin/ToDoList/assets/46906477/f325a126-91cb-4952-ac22-f5a1fc126a28" width="800" title="Editing a task in the database"><br />
   <p>Query and display tasks from the database:</p><br />
-  <img src="frontend/public/ToDo_4.gif" width="800" title="Query and display tasks from the database"><br />
+  <img src="https://github.com/antonsipin/ToDoList/assets/46906477/36e87503-75db-4d16-b42e-1c7335070cc2" width="800" title="Query and display tasks from the database"><br />
   <p>Removing a task from the database:</p><br />
-  <img src="frontend/public/ToDo_5.gif" width="800" title="Removing a task from the database">
+  <img src="https://github.com/antonsipin/ToDoList/assets/46906477/e1349ffd-869a-4184-963b-70d9c8cba98e" width="800" title="Removing a task from the database">
   </h3>
